@@ -174,7 +174,7 @@ button:disabled {
 
 .uwu-image {
     position: fixed;
-    bottom: 30px;
+    bottom: 80px;
     left: 85%;
     transform: translateX(-50%);
     z-index: 9999;
