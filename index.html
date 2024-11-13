@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>MEWO Chatbot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="step">
+            <div class="step-title">Download / Load Model</div>
+            <div class="download-container">
+                <span id="selected-model"></span>
+                <button id="download">START</button>
+            </div>
+            <div id="download-status" class="hidden"></div>
+        </div>
+
+        <div class="step">
+            <div class="step-title">Chat</div>
+            <div class="chat-container">
+                <div id="chat-box" class="chat-box"></div>
+                <div id="chat-stats" class="chat-stats hidden"></div>
+                <div class="chat-input-container">
+                    <input type="text" id="user-input" placeholder="Type a message..." />
+                    <button id="send" disabled>SEND</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img id="uwuImage" src="uwu.png" alt="uwu" class="uwu-image" />
+
+    <script src="./main.js" type="module"></script>
+</body>
+
+</html>
